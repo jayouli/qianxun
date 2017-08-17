@@ -1,0 +1,597 @@
+/*
+* @Author: hp
+* @Date:   2017-03-08 10:34:31
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-11 21:53:35
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+section{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+section>div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+body{
+	overflow: hidden;
+}
+.screen1{
+	background: url('../images/bg01.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.screen2{
+	background: url('../images/bg02.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.screen3{
+	background-size: 100% 100%;
+	background: url('../images/bg03.jpg') no-repeat;
+}
+.screen4{
+	background: url('../images/bg04.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.screen5{
+	background: url('../images/bg05.jpg') no-repeat;	
+	background-size: 100% 100%;
+
+}
+.screen6{
+	background: url('../images/bg06.jpg') no-repeat;
+	background-size: 100% 100%;
+	animation: keys 10s linear   infinite;
+}
+.screen6 .donimg{
+	position:absolute;
+	top: 0px;
+	animation: donimg 50s linear infinite;
+}
+@keyframes donimg{
+	0%{
+		transform:translate(0px,0px);
+	}
+	
+	100%{
+		transform:translate(0px,500px);
+	}
+}
+}
+@keyframes keys{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	50%{
+		transform:translate(0px,-5px);
+	}
+	100%{
+		transform:translate(0px,0px);
+	}
+}
+.screen7{
+	background: url('../images/bg07.jpg') no-repeat;
+	background-size: 100% 100%;
+}
+.feing{
+	position: absolute;
+	left: -10px;
+	top: 0px;
+	
+	animation: left 2s linear infinite;
+}
+.feing1{
+	position: absolute;
+	right: -4px;
+	bottom: 0px;
+	
+	animation: left3 3s linear infinite;
+}
+.feing2{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	
+	animation: left1 2s linear infinite;
+}
+.feing3{
+	position: absolute;
+	left: -30px;
+	bottom: 0px;
+	
+	animation: left2 3s linear infinite;
+}
+.liuxing{
+	position: absolute;
+	right: 0px;
+	top: 300px;
+	animation: liu1 2s linear infinite;
+	width: 20px;
+}
+.liuxing1{
+	position: absolute;
+	right: 900px;
+	top: 0px;
+	width: 20px;
+	animation: liu 2s linear infinite;
+}
+@keyframes liu1{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(-500px,500px);
+	}
+	
+}
+@keyframes liu{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(-500px,1000px);
+	}
+	
+}
+@keyframes left{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(730px,160px);
+	}
+	
+}
+@keyframes left1{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(-730px,160px);
+	}
+	
+}
+@keyframes left2{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(730px,-500px);
+	}
+	
+}
+@keyframes left3{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	100%{
+		transform:translate(-730px,-500px);
+	}
+	
+}
+.one{
+	position: fixed;
+	height: 100px;
+	width: 40px;
+	right: 20px;
+	top: 50%;
+	margin-top: -90px;
+}
+.one li{
+	width: 20px;
+	height: 20px;
+	margin-bottom: 10px;
+	border: 1px solid tomato;
+	border-radius: 50%;
+}
+li.crrent{
+	
+	background: url('../images/side_bg.png') no-repeat center center;
+	width: 40px;
+	height: 40px;
+	background-size: 80%;
+	border: none;
+	margin-left: -9px;
+	animation: move 2s linear infinite;
+}
+.screen7 .logo{
+	animation: move 1s linear infinite;
+	
+}
+@keyframes move{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.music{
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	
+}
+
+.video{
+	animation: move 2s linear infinite;
+}
+h1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	margin-left: -79px;
+	top: 100px;
+	
+}
+.logo2{
+	position: absolute;
+	top: 124px;
+	left: 726px;
+}
+.screen1 .logo{
+	animation: key 2s linear infinite ;
+}
+.screen3 .logo{
+	animation: key 2s linear infinite ;
+}
+.screen4 .logo{
+	animation: qiu 8s linear   infinite;
+}
+.screen6 .logo{
+	animation: key 6s linear   infinite;
+}
+
+@keyframes key{
+
+	0%{
+		transform:translate(0px,0px);
+	}
+	50%{
+		transform:translate(0px,-10px);
+	}
+	100%{
+		transform:translate(0px,0px);
+	}
+}
+@keyframes qiu{
+	0%{
+    transform: translate(0px, 0px);
+ }
+ 	25%{
+ 		transform: rotate(-4deg);
+ 	}
+ 	
+ 	50%{
+ 		transform:rotate(4deg);
+ 	}
+ 	75%{
+ 		transform:rotate(-3deg);
+ 	}
+	100%{
+		transform: translate(-200px, -200px)
+	}
+	
+}
+
+
+.des{
+	position: absolute;
+	width: 442px;
+	left: 50%;
+	margin-left: -221px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+	color: white;
+	top: 380px;
+}
+.check{
+	position: absolute;
+	left: 50%;
+	margin-left: -152px;
+	top: 440px;
+}
+.banner{
+	position: absolute;
+	top: 540px;
+	left: 50%;
+	margin-left: -165px;
+	font-size: 12px;
+	color: white;
+} 
+.bottom{
+	position: fixed;
+	width: 100%;
+	height: 62px;
+	background: rgba(0,0,0,0.8);
+	bottom: 0px;
+}
+.nav{
+	position: relative;
+    left: 50%;
+    margin-left: -550px;
+}
+.nav li{
+	float: left;
+	margin-right: 50px;
+	position:relative;
+	width: 179px;
+	height: 61px;
+	text-align:center;
+}
+.nav li:hover{
+	background: red;
+}
+.nav a{
+	color: white;
+	line-height: 62px;
+	text-decoration: none;
+}
+
+.nav .icon{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background: url('../images/icons-nav_078b02e.png') no-repeat 9px 3px;
+	left: 20px;
+	top: 18px;
+}
+.nav .icon2{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left:20px;
+	bottom: 22px;
+	background: url('../images/icons-nav_078b02e.png') no-repeat -22px -1px;
+}
+
+.nav .icon3{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 20px;
+	bottom: 22px;
+	background: url('../images/icons-nav_078b02e.png') no-repeat -40px 0px ;
+}
+.nav .icon4{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 20px;
+	bottom: 22px;
+	background: url('../images/icons-nav_078b02e.png') no-repeat -60px 2px;
+}
+.nav .icon5{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 20px;
+	bottom: 22px;
+	background: url('../images/icons-nav_078b02e.png') no-repeat -80px 1px;
+}
+.pic{
+	position: absolute;
+	height: 64px;
+	margin-left: -212px;
+	left: 50%;
+	top: 300px;
+}
+.pic img{
+	transition: all 6s;
+}
+ .no .left{
+ 	margin-left: 200px;
+	transform: rotate(180deg);
+}
+ .no .right{
+ 	margin-left: -400px;
+	transform: rotate(180deg);
+}
+.run{
+	position: absolute;
+	top: 68px;
+	right: 318px;
+	animation: rota 30s linear infinite;
+}
+@keyframes rota{
+	0%{
+		transform: translate(-100%);
+	}
+	25%{
+		transform: translate(-200%);
+	}
+	50%{
+		transform: translate(-300%);
+	}
+	75%{
+		transform: translate(-400%);
+	}
+	100%{
+		transform: translate(-500%);
+	}
+}
+ .pass{
+	position: absolute;
+	top: 133px;
+	left: 50%;
+	margin-left: -45px;
+	z-index: 2;
+	animation: lav 20s linear infinite;
+}
+@keyframes lav{
+	0%{
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(130deg);
+	}
+	75%{
+		transform: rotate(360deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}
+.small{
+	position: absolute;
+	top: 38px;
+	right: 436px;
+	z-index: 2;
+	animation: key 20s linear infinite;
+}
+.jiang{
+	position: absolute;
+	right: 392px;
+	bottom: 306px;
+	animation: key 10s linear infinite ;
+}
+.san{
+	position: absolute;
+	right: 188px;
+	bottom: 140px;
+	animation: key 10s linear infinite ;
+}
+.jlan{
+	animation: key 10s linear infinite ;
+}
+.screen6 logo{
+	background: url('../images/balloon-blue-1_c279c32.png')
+}
+.pao1{
+	position: absolute;
+	top: 130px;
+	left: 50%;
+    margin-left: -50px;
+	animation: bao 20s linear infinite;
+}
+.pao2{
+	position: absolute;
+	top: 120px;
+	left: 50%;
+    margin-left: -40px;
+	animation: bao 20s linear infinite;
+}
+.pao3{
+	position: absolute;
+	top: 130px;
+	left: 50%;
+    margin-left: -60px;
+	animation: bao 20s linear infinite;
+}
+.pao4{
+	position: absolute;
+	top: 149px;
+	left: 50%;
+    margin-left: 20px;
+	animation: bao 20s linear infinite;
+}
+.pao5{
+	position: absolute;
+	top: 115px;
+	left: 50%;
+    margin-left: -40px;
+	animation: bao20s linear infinite;
+}
+.pao6{
+	position: absolute;
+	top: 2000px;
+	left: 50%;
+    margin-left: -20px;
+	animation: bao 20s linear infinite;
+}
+.pao7{
+	position: absolute;
+	top: 180px;
+	left: 50%;
+    margin-left: -40px;
+	animation: bao 20s linear infinite;
+}
+
+@keyframes bao{
+	0%{
+		transform: translate(0px,0px);
+	}
+	100%{
+		transform: translate(0px,-100px);
+	}
+}
+.tup img{
+	position: absolute;
+	width: 148px;
+	top: 124px;
+	left: 726px;
+
+}
+.xuanwo{
+	position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -95px;
+    animation: moveo 6s linear infinite;
+	
+}
+.xuanwo h4{
+	position: absolute;
+	top: 10px;
+	opacity: 0.8;
+}
+.xuanwo h2{
+	z-index: 1;
+	
+}
+.screen5 div{
+        		width: 300px;
+        		height: 300px;
+        		margin: 0px auto;
+        		position: absolute;
+        		left: 50%;
+        		margin-left: -120px;
+        	}
+.huanlian{
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+.huanlian li{
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 0px;
+
+}
+.huanlian li img{
+	animation: movez 2s linear infinite;
+}
+@keyframes movez{
+	0%{
+			transform: scale(0);
+		}
+		100%{
+			transform: scale(2);
+		}
+}
+@keyframes moveo{
+        		0%{
+        			transform: rotate(0deg);
+        		}
+        		100%{
+        			transform: rotate(360deg);
+        		}
+        	}
+

@@ -1,0 +1,1080 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-19 15:16:19
+* @Last Modified by:   hp
+* @Last Modified time: 2017-06-10 12:46:26
+*/	*{
+	margin: 0px;
+	padding: 0px;
+    }
+      body{
+        	background: url('../images/bg_all.png') no-repeat;
+            background-size:  100% ;
+        	padding-top: 148px;
+        	}
+        	h1{
+        		width: 332px;
+        		height: 70px;
+        		margin:  0px auto 0px;
+               
+        	}
+        	h1 span{
+        		width: 70px;
+        		height: 70px;
+        		border-radius: 50%;
+        		background: url('../images/version_bg.png') no-repeat -1px -111px;
+        		float:  left;
+        	}
+        	h1 p{
+                
+        		text-align: center;
+        		line-height: 69px;
+        		float:  right;
+        		font-size: 48px;
+                
+        	}
+        	section{
+        		width: 824px;
+        		height: 7330px;
+        		
+        		margin:  60px auto 0px;
+        		// padding-top: 90px;
+        	}
+        	.concent{
+        		width: 380px;
+        		height: 7184px;
+        		border-left: 3px solid #1cadf0;
+        		position: relative;
+        		left: 50%;
+				
+        	}
+        	.iconbig{
+        		width: 428px;
+        		height: 90px;
+        		
+        		position: relative;
+
+        	}
+        	.iconbig .iconbig-lobig ,.iconbig-losmall,.iconbig-stray,.iconbig-vary,.left-vry,.right-vry,.boxleft-vry,.foorer .sea{
+        		background-image: url('../images/version_bg.png');
+        	}
+        	.iconbig-lobig{
+        		width: 40px;
+        		height: 40px;
+        		position: absolute;
+        		top: -3px;
+        		left: -18px;
+				background-position: -298px -181px;
+				background-repeat: no-repeat;
+        	}
+        	.iconbig-stray{
+        		width: 12px;
+        		height: 12px;
+        		position: absolute;
+        		top: 8px;
+        		left: -6px;
+        		z-index: 1;
+				background-position:-310px -258px;
+				background-repeat: no-repeat;
+        	}
+        	
+        	.iconbig-vary{
+        		width: 12px;
+        		height: 12px;
+        		position: absolute;
+        		top: 8px;
+        		left: -6px;
+        		z-index: 1;
+				background-position:-310px -258px;
+				background-repeat: no-repeat;
+        	}
+    		 .iconbig-losmall{
+    			position: absolute;
+    			height: 40px;
+    			width: 40px;
+    			bottom: -30px;
+    			left: -14px;
+    			z-index: 1;
+    			background-position: -311px -316px;
+    			background-repeat: no-repeat;
+    			
+    		}
+    		.iconbig-volay{
+    			position: absolute;
+    			left: 26px;
+    			width: 96px;
+    			height: 30px;
+				line-height: 30px;
+				color: white;
+    		}
+    		.right-top-box{
+    			width: 380px;
+    			height: 238px;
+    			background: #1cadf0;
+    			margin-left: 30px;
+    			position: relative;
+    		}
+    		.right-top-box .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			left: -10px;
+    		}
+            .ger img{
+                top: 5px;
+              
+                position: absolute;
+            }
+    		.left-top-box{
+    			width: 380px;
+    			height: 238px;
+    			background: #1cadf0;
+    			right: 109%;
+    			position: relative;
+    			margin-top: 6px;
+    		}	
+    		.left-vry{
+    			width: 20px;
+    			height: 20px;
+    			background-position: -313px -316px;
+    			background-repeat: no-repeat;
+    			position: absolute;
+    			right: -44px;
+    			top: -8px;
+    		}
+    		.left-top-box .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			right: -20px;
+    		}
+    		.right-top-box h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		h3 .werf{
+    			font-size: 20px;
+    			color: white;
+    			font-weight: bold;
+    		}
+    		h3 .erf{
+    			font-size: 12px;
+    			color: white;
+    		}
+    		.ref{
+    			width: 216px;
+    			height: 138px;
+    			
+    			position: absolute;
+    			left: 28px;
+    			top: 64px;
+    		}
+    		.ref li{
+    			font-size: 12px;
+    			color: white;
+    			line-height: 32px;
+    		}
+    		.left-top-box h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		.logovox-right{
+    			width: 380px;
+    			height: 238px;
+    			background: #e6e7eb;
+    			margin-left: 30px;
+    			position: relative;
+    			padding: 10px 0px;
+    		}
+    		.right-vry{
+    			width: 20px;
+    			height: 20px;
+    			background-position: -313px -316px;
+    			background-repeat: no-repeat;
+    			position: absolute;
+    			left: -42px;
+    			top: -8px;
+    		}
+    		.logovox-right .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			left: -10px;
+
+    		}
+    		.logovox-left{
+    			width: 380px;
+    			height: 238px;
+    			background: #e6e7eb;
+    			right: 109%;
+    			position: relative;
+    			margin-top: 6px;
+    		}	
+    		.boxleft-vry{
+    			width: 20px;
+    			height: 20px;
+    			background-position: -313px -316px;
+    			background-repeat: no-repeat;
+    			position: absolute;
+    			right: -44px;
+    			top: -8px;
+    		}
+    		.logovox-left .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			right: -20px;
+    		}
+    		.logovox-right h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		.logovox-left h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		.logovox-right h3 span{
+    			color: #333333;
+    		}
+    		.logovox-right .ref li{
+    			color: #333333;
+    		}
+    		.logovox-left h3 span{
+    			color: #333333;
+    		}
+    		.logovox-left .ref li{
+    			color: #333333;
+    			// line-height: 24px;
+    		}
+    		
+    		.logovox-right .ref{
+    			width: 336px;
+    			height: 138px;
+    			
+    			position: absolute;
+    			left: 28px;
+    			top: 64px;
+ 			}
+ 			.logovox-left .ref{
+    			width: 258px;
+    			height: 138px;
+    			
+    			position: absolute;
+    			left: 28px;
+    			top: 64px;
+ 			}
+ 			.boxlogovox-left{
+    			width: 380px;
+    			height: 238px;
+    			background: #e6e7eb;
+    			right: 109%;
+    			position: relative;
+    			margin-top: 6px;
+    			padding: 20px 0px;
+    		}
+    		.boxlogovox-left .boxleft-vry{
+    			width: 20px;
+    			height: 20px;
+    			background-position: -313px -316px;
+    			background-repeat: no-repeat;
+    			position: absolute;
+    			right: -44px;
+    			top: -8px;
+    		}
+    		.boxlogovox-left .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			right: -20px;
+    		}	
+    		.boxlogovox-left h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		.boxlogovox-left h3 span{
+    			color: #333333;
+    		}
+    		.boxlogovox-left .ref li{
+    			color: #333333;
+    		}
+    		.boxlogovox-left h3 span{
+    			color: #333333;
+    		}
+    		.boxlogovox-left .ref li{
+    			color: #333333;
+    			
+    		}
+    		.bottomlogovox-left .ref{
+    			width: 323px;
+    			height: 138px;
+    			
+    			position: absolute;
+    			left: 28px;
+    			top: 64px;
+ 			}
+    		.bottomlogovox-left{
+    			width: 380px;
+    			height: 238px;
+    			background: #e6e7eb;
+    			right: 109%;
+    			position: relative;
+    			margin-top: 6px;
+    			padding: 100px 0px;
+    		}
+    		.bottomlogovox-left .boxleft-vry{
+    			width: 20px;
+    			height: 20px;
+    			background-position: -313px -316px;
+    			background-repeat: no-repeat;
+    			position: absolute;
+    			right: -44px;
+    			top: -8px;
+    		}
+    		.bottomlogovox-left .ger{
+    			position: absolute;
+    			width: 20px;
+    			height: 20px;
+    			top: -5px;
+    			right: -20px;
+    		}	
+    		.bottomlogovox-left h3{
+    			width: 118px;
+    			height: 20px;
+    			
+    			position: absolute;
+    			top: 28px;
+    			left: 28px;
+    		}
+    		.bottomlogovox-left h3 span{
+    			color: #333333;
+    		}
+    		.bottomlogovox-left .ref li{
+    			color: #333333;
+    		}
+    		.bottomlogovox-left h3 span{
+    			color: #333333;
+    		}
+    		.bottomlogovox-left .ref li{
+    			color: #333333;
+    			
+    		}
+            .borlogovox-left{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                padding: 33px 0px;
+            }
+            .borlogovox-left .boxleft-vry{
+                width: 20px;
+                height: 20px;
+                background-position: -313px -316px;
+                background-repeat: no-repeat;
+                position: absolute;
+                right: -44px;
+                top: -8px;
+            }
+            .borlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .borlogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .borlogovox-left h3 span{
+                color: #333333;
+            }
+            .borlogovox-left .ref{
+                width: 317px;
+            }
+            .borlogovox-left .ref li{
+                color: #333333;
+            }
+            .borlogovox-left h3 span{
+                color: #333333;
+            }
+            .borlogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .lonovox-right{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 32px 0px;
+            }
+            .lonovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .lonovox-right h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .lonovox-right h3 span{
+                color: #333333;
+            }
+            .lonovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .lonovox-right .ref{
+                width: 323px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .boylogovox-left{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                padding: 46px 0px;
+            }
+            .boylogovox-left .boxleft-vry{
+                width: 20px;
+                height: 20px;
+                background-position: -313px -316px;
+                background-repeat: no-repeat;
+                position: absolute;
+                right: -44px;
+                top: -8px;
+            }
+            .boylogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .boylogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .boylogovox-left h3 span{
+                color: #333333;
+            }
+            .boylogovox-left .ref{
+                width: 317px;
+            }
+            .boylogovox-left .ref li{
+                color: #333333;
+            }
+            .boylogovox-left h3 span{
+                color: #333333;
+            }
+            .boylogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .loyovox-right{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 46px 0px;
+            }
+            .loyovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loyovox-right h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loyovox-right h3 span{
+                color: #333333;
+            }
+            .loyovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loyovox-right .ref{
+                width: 305px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .boottomlogovox-left .ref{
+                width: 323px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .boottomlogovox-left{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                padding: 64px 0px;
+            }
+            .boottomlogovox-left .boxleft-vry{
+                width: 20px;
+                height: 20px;
+                background-position: -313px -316px;
+                background-repeat: no-repeat;
+                position: absolute;
+                right: -44px;
+                top: -8px;
+            }
+            .boottomlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .boottomlogovox-left h3{
+                width: 192px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .boottomlogovox-left h3 span{
+                color: #333333;
+            }
+            .boottomlogovox-left .ref li{
+                color: #333333;
+            }
+            .boottomlogovox-left h3 span{
+                color: #333333;
+            }
+            .boottomlogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .lorovox-right{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 26px 0px;
+            }
+            .lorovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .lorovox-right h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .lorovox-right h3 span{
+                color: #333333;
+            }
+            .lorovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .lorovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .loxovox-right{
+                width: 380px;
+                height: 238px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 26px 0px;
+            }
+            .loxovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loxovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loxovox-right h3 span{
+                color: #333333;
+            }
+            .loxovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loxovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .loeovox-right{
+                width: 380px;
+                height: 146px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                
+            }
+            .loeovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loeovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loeovox-right h3 span{
+                color: #333333;
+            }
+            .loeovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loeovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .boteomlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .boteomlogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .boteomlogovox-left h3 span{
+                color: #333333;
+            }
+            .boteomlogovox-left .ref li{
+                color: #333333;
+            }
+            .boteomlogovox-left h3 span{
+                color: #333333;
+            }
+            .boteomlogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .boteomlogovox-left .ref{
+                width: 323px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .boteomlogovox-left{
+                width: 380px;
+                height: 146px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                
+            }
+            .loeyovox-right{
+                width: 380px;
+                height: 146px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 10px 0px;
+                
+            }
+            .loeyovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loeyovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loeyovox-right h3 span{
+                color: #333333;
+            }
+            .loeyovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loeyovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .botzomlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .botzomlogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .botzomlogovox-left h3 span{
+                color: #333333;
+            }
+            .botzomlogovox-left .ref li{
+                color: #333333;
+            }
+            .botzomlogovox-left h3 span{
+                color: #333333;
+            }
+            .botzomlogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .botzomlogovox-left .ref{
+                width: 323px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .botzomlogovox-left{
+                width: 380px;
+                height: 246px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                padding: 10px 0px;
+            }
+            .loepovox-right{
+                width: 380px;
+                height: 224px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 10px 0px;
+                
+            }
+            .loepovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loepovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loepovox-right h3 span{
+                color: #333333;
+            }
+            .loepovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loepovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .botromlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .botromlogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .botromlogovox-left h3 span{
+                color: #333333;
+            }
+            .botromlogovox-left .ref li{
+                color: #333333;
+            }
+            .botromlogovox-left h3 span{
+                color: #333333;
+            }
+            .botromlogovox-left .ref li{
+                color: #333333;
+                
+            }
+            .botromlogovox-left .ref{
+                width: 324px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .botromlogovox-left{
+                width: 380px;
+                height: 318px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                padding: 10px 0px;
+            }
+            .loebovox-right{
+                width: 380px;
+                height: 224px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+                padding: 10px 0px;
+                
+            }
+            .loebovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loebovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loebovox-right h3 span{
+                color: #333333;
+            }
+            .loebovox-right .ref li{
+                color: #333333;
+                line-height: 28px;
+            }
+            .loebovox-right .ref{
+                width: 317px;
+                height: 138px;
+                
+                position: absolute;
+                left: 28px;
+                top: 64px;
+            }
+            .botmomlogovox-left .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                right: -20px;
+            }   
+            .botmomlogovox-left h3{
+                width: 118px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .botmomlogovox-left h3 span{
+                color: #333333;
+            }
+            .botmomlogovox-left .ref li{
+                color: #333333;
+            }
+            .botmomlogovox-left h3 span{
+                color: #333333;
+            }
+            
+            .botmomlogovox-left{
+                width: 380px;
+                height: 84px;
+                background: #e6e7eb;
+                right: 109%;
+                position: relative;
+                margin-top: 6px;
+                
+            }
+            .loemovox-right{
+                width: 380px;
+                height: 84px;
+                background: #e6e7eb;
+                margin-left: 30px;
+                position: relative;
+               
+                
+            }
+            .loemovox-right .ger{
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                top: -5px;
+                left: -10px;
+
+            }
+            .loemovox-right h3{
+                width: 172px;
+                height: 20px;
+                
+                position: absolute;
+                top: 28px;
+                left: 28px;
+            }
+            .loemovox-right h3 span{
+                color: #333333;
+            }
+            .foorer{
+                height:35px;
+                width:108px;
+                
+                margin-top:92px;
+                position:relative;
+            }
+            .foorer .see{
+                width:40px;
+                height: 35px;
+                background: url('../images/version_bg.png')no-repeat -292px -282px;
+                position: absolute;
+                left: -23px;
+                top: 0px;
+            }
+            // .foorer .sea{
+            //     position: absolute;
+            //     left: -23px;
+            //     top: 0px;
+            //     width:10px;
+            //     height:10px;
+            //     background-position:-309px -209px;
+            //     z-index:1px;
+            // }
+            .foorer p{
+                position:absolute;
+                right: 0px;
+                top:50%;
+                margin-top:-8px;
+            }
+            
